@@ -1,8 +1,8 @@
-//
-//  1008.swift
+
+//  main.swift
 //  Algorithm
 //
-//  Created by 지준용 on 2022/06/22.
+//  Created by 지준용 on 2022/06/21.
 //
 
 import Foundation
@@ -12,4 +12,3 @@ print(Double(division[0])/Double(division[1]))
 
 let division = readLine()!.split(separator: " ").map{Double($0)!}
 print(division[0]/division[1])
-
