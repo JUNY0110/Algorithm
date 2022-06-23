@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98B74873286386A40012EE28 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B74872286386A40012EE28 /* main.swift */; };
+		988E44582864208700C69802 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988E44572864208700C69802 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,10 +32,12 @@
 		985FBE102861A4A600B9B672 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		985FBE132861A4A600B9B672 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		985FBE1A2861A4AF00B9B672 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
+		988E445528641EE400C69802 /* 9498.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9498.swift; sourceTree = "<group>"; };
+		988E44572864208700C69802 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98B7486C28631E3A0012EE28 /* 10430.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10430.swift; sourceTree = "<group>"; };
 		98B7486E286321640012EE28 /* 25083.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
 		98B7487028637BFD0012EE28 /* 2588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2588.swift; sourceTree = "<group>"; };
-		98B74872286386A40012EE28 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98B74872286386A40012EE28 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
 		98D44728286217F500895993 /* 10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10869.swift; sourceTree = "<group>"; };
 		98D447292862180500895993 /* 18108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 		98D44739286220B200895993 /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
@@ -54,7 +56,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		981D149E2861AC870024B7C0 /* BaekJoon */ = {
+		981D149E2861AC870024B7C0 /* 입출력과 사칙연산 */ = {
 			isa = PBXGroup;
 			children = (
 				98B7486E286321640012EE28 /* 25083.swift */,
@@ -74,14 +76,14 @@
 				981D14962861A6600024B7C0 /* 10718.swift */,
 				985FBE1A2861A4AF00B9B672 /* 2557.swift */,
 			);
-			path = BaekJoon;
+			name = "입출력과 사칙연산";
+			path = "입출력과 사칙연산";
 			sourceTree = "<group>";
 		};
 		985FBE072861A4A600B9B672 = {
 			isa = PBXGroup;
 			children = (
 				985FBE122861A4A600B9B672 /* Algorithm */,
-				981D149E2861AC870024B7C0 /* BaekJoon */,
 				985FBE112861A4A600B9B672 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,9 +99,21 @@
 		985FBE122861A4A600B9B672 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
-				98B74872286386A40012EE28 /* main.swift */,
+				988E44572864208700C69802 /* main.swift */,
+				98B74874286387250012EE28 /* 조건문 */,
+				981D149E2861AC870024B7C0 /* 입출력과 사칙연산 */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		98B74874286387250012EE28 /* 조건문 */ = {
+			isa = PBXGroup;
+			children = (
+				988E445528641EE400C69802 /* 9498.swift */,
+				98B74872286386A40012EE28 /* 1330.swift */,
+			);
+			name = "조건문";
+			path = "조건문";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98B74873286386A40012EE28 /* main.swift in Sources */,
+				988E44582864208700C69802 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
