@@ -7,13 +7,10 @@
 
 import Foundation
 
-let inputH = readLine()!
-//let inputM = readLine()!
-let inputArrayH = inputH.split(separator: " ")
-let inputArrayM = inputH.split(separator: " ")
+let input = readLine()!.split(separator: " ")
 
-var hh = Int(inputArrayH[0])!
-var mm = Int(inputArrayM[1])!
+var hh = Int(input[0])!
+var mm = Int(input[1])!
 
 mm -= 45
 if mm < 0 {
