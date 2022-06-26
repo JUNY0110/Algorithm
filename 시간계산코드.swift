@@ -7,5 +7,9 @@
 
 import Foundation
 let startTime = CFAbsoluteTimeGetCurrent()
-//실행할 코드
+var n = Int(String(readLine()!))!
+
+for i in stride(from: n, to: 0, by: -1) {
+    print("\(i)")
+}
 print(CFAbsoluteTimeGetCurrent() - startTime)
