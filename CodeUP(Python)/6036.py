@@ -2,4 +2,4 @@
 
 a, b = input().split()
 
-print(a * int(b))
+print(a * int(b)) 
