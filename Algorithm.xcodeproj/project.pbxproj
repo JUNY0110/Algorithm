@@ -61,6 +61,7 @@
 		98F2E05B2955FF8F009690AB /* 2438.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2438.swift; sourceTree = "<group>"; };
 		98F2E05D29560D6A009690AB /* 2439.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2439.swift; sourceTree = "<group>"; };
 		98F2E05F29562969009690AB /* 10952.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10952.swift; sourceTree = "<group>"; };
+		98F2E0612956AA49009690AB /* 10951.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10951.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +142,7 @@
 				98F2E05B2955FF8F009690AB /* 2438.swift */,
 				98F2E05D29560D6A009690AB /* 2439.swift */,
 				98F2E05F29562969009690AB /* 10952.swift */,
+				98F2E0612956AA49009690AB /* 10951.swift */,
 			);
 			name = "반복문";
 			path = "반복문";
