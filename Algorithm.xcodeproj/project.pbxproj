@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9835813B2959C1FB0023BD6A /* 1546.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835813A2959C1FB0023BD6A /* 1546.swift */; };
 		9835813F2959CD350023BD6A /* 8958.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835813E2959CD350023BD6A /* 8958.swift */; };
+		983581412959EE680023BD6A /* 4344.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983581402959EE680023BD6A /* 4344.swift */; };
 		98AC4A5D295947CE00ED2F78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813AF3F2868B8B80087D10A /* main.swift */; };
 		98AC4A662959A59F00ED2F78 /* 3052.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4A652959A59F00ED2F78 /* 3052.swift */; };
 /* End PBXBuildFile section */
@@ -43,6 +44,7 @@
 		981D14A32861C95A0024B7C0 /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
 		9835813A2959C1FB0023BD6A /* 1546.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1546.swift; sourceTree = "<group>"; };
 		9835813E2959CD350023BD6A /* 8958.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 8958.swift; sourceTree = "<group>"; };
+		983581402959EE680023BD6A /* 4344.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 4344.swift; sourceTree = "<group>"; };
 		985FBE102861A4A600B9B672 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		985FBE132861A4A600B9B672 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		985FBE1A2861A4AF00B9B672 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				98AC4A652959A59F00ED2F78 /* 3052.swift */,
 				9835813A2959C1FB0023BD6A /* 1546.swift */,
 				9835813E2959CD350023BD6A /* 8958.swift */,
+				983581402959EE680023BD6A /* 4344.swift */,
 			);
 			name = "1차원 배열";
 			path = "1차원 배열";
@@ -254,6 +257,7 @@
 			files = (
 				9835813B2959C1FB0023BD6A /* 1546.swift in Sources */,
 				98AC4A5D295947CE00ED2F78 /* main.swift in Sources */,
+				983581412959EE680023BD6A /* 4344.swift in Sources */,
 				98AC4A662959A59F00ED2F78 /* 3052.swift in Sources */,
 				9835813F2959CD350023BD6A /* 8958.swift in Sources */,
 			);
