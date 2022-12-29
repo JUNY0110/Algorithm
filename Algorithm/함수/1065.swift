@@ -12,6 +12,7 @@ class BaekJoon1065 {
         solution2()
     }
     
+    // MARK: - 풀이1(함수 미사용)
     func solution1() {
         if let input = readLine(),
            let maxValue = Int(input) {
@@ -31,6 +32,7 @@ class BaekJoon1065 {
         }
     }
     
+    // MARK: - 풀이2(함수 사용)
     func solution2() {
         if let input = readLine(),
            let maxValue = Int(input) {
