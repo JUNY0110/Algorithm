@@ -26,7 +26,3 @@ class BaekJoon11654 {
         }
     }
 }
-if let input = readLine(),
-    let result = Character(input).asciiValue { // UInt8타입
-    print(result)
-}
