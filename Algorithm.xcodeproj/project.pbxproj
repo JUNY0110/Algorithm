@@ -16,6 +16,7 @@
 		9835814B295EB6640023BD6A /* 11720.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835814A295EB6640023BD6A /* 11720.swift */; };
 		9835814D295EFA070023BD6A /* 10809.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835814C295EFA070023BD6A /* 10809.swift */; };
 		9835814F2963012F0023BD6A /* 2675.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9835814E2963012F0023BD6A /* 2675.swift */; };
+		98358151296323370023BD6A /* 1157.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98358150296323370023BD6A /* 1157.swift */; };
 		98AC4A5D295947CE00ED2F78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813AF3F2868B8B80087D10A /* main.swift */; };
 		98AC4A662959A59F00ED2F78 /* 3052.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4A652959A59F00ED2F78 /* 3052.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		9835814A295EB6640023BD6A /* 11720.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11720.swift; sourceTree = "<group>"; };
 		9835814C295EFA070023BD6A /* 10809.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10809.swift; sourceTree = "<group>"; };
 		9835814E2963012F0023BD6A /* 2675.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2675.swift; sourceTree = "<group>"; };
+		98358150296323370023BD6A /* 1157.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1157.swift; sourceTree = "<group>"; };
 		985FBE102861A4A600B9B672 /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		985FBE132861A4A600B9B672 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 		985FBE1A2861A4AF00B9B672 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				9835814A295EB6640023BD6A /* 11720.swift */,
 				9835814C295EFA070023BD6A /* 10809.swift */,
 				9835814E2963012F0023BD6A /* 2675.swift */,
+				98358150296323370023BD6A /* 1157.swift */,
 			);
 			name = "문자열";
 			path = "문자열";
@@ -294,6 +297,7 @@
 				9835813B2959C1FB0023BD6A /* 1546.swift in Sources */,
 				98358143295BFA2F0023BD6A /* 4673.swift in Sources */,
 				98AC4A5D295947CE00ED2F78 /* main.swift in Sources */,
+				98358151296323370023BD6A /* 1157.swift in Sources */,
 				9835814B295EB6640023BD6A /* 11720.swift in Sources */,
 				98358145295DB6670023BD6A /* 1065.swift in Sources */,
 				983581412959EE680023BD6A /* 4344.swift in Sources */,
