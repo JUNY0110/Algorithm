@@ -27,4 +27,17 @@ class BaekJoon2292 {
             print(n)
         }
     }
+    
+    func solution2() {
+        if let input = readLine(),
+           let num = Int(input) {
+            var n = 0, sum = 0
+            
+            while sum < num {
+                sum += 6*n
+                n += 1
+            }
+            print(n)
+        }
+    }
 }
