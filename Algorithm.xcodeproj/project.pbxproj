@@ -35,6 +35,7 @@
 		9842BB0B296DAB71003C60A3 /* 2738.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842BB0A296DAB71003C60A3 /* 2738.swift */; };
 		98AC4A5D295947CE00ED2F78 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9813AF3F2868B8B80087D10A /* main.swift */; };
 		98AC4A662959A59F00ED2F78 /* 3052.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC4A652959A59F00ED2F78 /* 3052.swift */; };
+		98D2956629713EA00021C6D5 /* 2566.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D2956529713EA00021C6D5 /* 2566.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +114,7 @@
 		98B7486E286321640012EE28 /* 25083.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25083.swift; sourceTree = "<group>"; };
 		98B7487028637BFD0012EE28 /* 2588.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2588.swift; sourceTree = "<group>"; };
 		98B74872286386A40012EE28 /* 1330.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1330.swift; sourceTree = "<group>"; };
+		98D2956529713EA00021C6D5 /* 2566.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2566.swift; sourceTree = "<group>"; };
 		98D44728286217F500895993 /* 10869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10869.swift; sourceTree = "<group>"; };
 		98D447292862180500895993 /* 18108.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 18108.swift; sourceTree = "<group>"; };
 		98D44739286220B200895993 /* 1008.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1008.swift; sourceTree = "<group>"; };
@@ -218,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				9842BB0A296DAB71003C60A3 /* 2738.swift */,
+				98D2956529713EA00021C6D5 /* 2566.swift */,
 			);
 			name = "2차원배열";
 			path = "2차원배열";
@@ -369,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D2956629713EA00021C6D5 /* 2566.swift in Sources */,
 				983581532964368C0023BD6A /* 1152.swift in Sources */,
 				9835813B2959C1FB0023BD6A /* 1546.swift in Sources */,
 				983581662967F17C0023BD6A /* 10250.swift in Sources */,
