@@ -9,7 +9,7 @@ import Foundation
 
 class BaekJoon2566 {
     func run() {
-        solution2()
+        solution3()
     }
     func solution1() {
         var input = Array(repeating: Array(repeating: 0, count: 9), count: 9)
@@ -29,11 +29,10 @@ class BaekJoon2566 {
     
     func solution2() {
         var input = Array(repeating: Array(repeating: 0, count: 9), count: 9)
-        var lines: [Int] = []
         var dictionary = [Int: Int]()
         
         for index in 0..<input.count {
-            lines = readLine()!.split(separator: " ").map{ Int(String($0))! }
+            let lines = readLine()!.split(separator: " ").map{ Int(String($0))! }
             
             input[index] = lines
             dictionary[index] = lines.max()
@@ -46,5 +45,28 @@ class BaekJoon2566 {
             print(maxValue)
             print(line + 1, row)
         }
+    }
+    
+    func solution3() {
+        var matrix = Array(repeating: Array(repeating: 0, count: 9), count: 9)
+        var maxValue = 0
+        
+        for line in 0..<9 {
+            matrix[line] = readLine()!.split(separator: " ").map{ Int(String($0))! }
+        }
+        
+        var lineNum = 0
+        var rowNum = 0
+        
+        for i in 0..<matrix.count {
+            if maxValue <= matrix[i].max() ?? -1 {
+                maxValue = matrix[i].max() ?? -1
+                lineNum = i + 1
+                rowNum = matrix[i].firstIndex(of: maxValue)! + 1
+            }
+            
+        }
+        print(maxValue)
+        print(lineNum, rowNum)
     }
 }
