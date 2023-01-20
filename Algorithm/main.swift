@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+let main = BaekJoon2563()
+
+//let startTime = CFAbsoluteTimeGetCurrent()
+//var n = Int(String(readLine()!))!
+
+//for _ in stride(from: n, to: 0, by: -1) {
+    main.run()
+//}
+//print(CFAbsoluteTimeGetCurrent() - startTime)
