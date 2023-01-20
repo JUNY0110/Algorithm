@@ -9,7 +9,7 @@ import Foundation
 
 class BaekJoon10809 {
     func run() {
-        solution6()
+        solution5()
     }
     
     func solution1() {
