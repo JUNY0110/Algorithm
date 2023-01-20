@@ -69,11 +69,6 @@ class BaekJoon2563 {
                 }
             }
         }
-        
-        coordinates.forEach {
-            print($0)
-        }
-        
         print(num * 100 - result)
     }
     
