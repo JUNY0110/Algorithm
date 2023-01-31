@@ -9,7 +9,7 @@ import Foundation
 
 class BaekJoon10757 {
     func run() {
-        solution1()
+        solution2()
     }
     
     func solution1() {
@@ -31,5 +31,32 @@ class BaekJoon10757 {
         }
 
         print(a.map { String($0) }.joined(separator: ""))
+    }
+    
+    func solution2() {
+        let nums = readLine()!.split(separator: " ").map{ String($0) }
+        let a: [Int] = nums[0].map{ Int(String($0))! }.reversed()
+        let b: [Int] = nums[1].map{ Int(String($0))! }.reversed()
+        var results = [Int]()
+        var onePlus = 0
+        var value = 0
+        
+        for i in 0...max(a.count - 1, b.count - 1) {
+            value = (a.count > i ? a[i] : 0) + (b.count > i ? b[i] : 0) + (onePlus)
+            if value < 10 {
+                results.append(value)
+                onePlus = 0
+            } else {
+                results.append(value % 10)
+                onePlus = 1
+            }
+        }
+        if onePlus == 1 {
+            value += 1
+            results = [value]
+//            results.append(1)
+        }
+        
+        print(results.reversed().map{String($0)}.joined(separator: ""))
     }
 }
