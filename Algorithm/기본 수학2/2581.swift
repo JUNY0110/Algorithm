@@ -150,4 +150,41 @@ class BaekJoon2581 {
 
         print(results.isEmpty ? -1 : "\(results.reduce(0, +))\n\(results[0])")
     }
+    
+    func solution5() {
+        // 소수 규칙1: 1은 소수가 아니다
+        // 소수 규칙2: 1과 자기자신만으로 나눠지는 수만이 소수이다
+        // 소수 규칙4: 수의 제곱근까지 나눠지는 수가 있는지 체크하면 된다.
+        // 소수 규칙5: 수의 제곱근 중 하나라도 나눠지는 수가 있다면 나머지 수는 확인하지 않아도 된다.
+
+        let m = Int(readLine()!)!
+        let n = Int(readLine()!)!
+        var minNum = -1
+        var sum = 0
+
+        for num in m...n {
+            if num == 1 {
+                continue
+            }
+
+            var n = 2
+            var isPrime = true
+
+            while n * n <= num {
+                if num % n == 0 {
+                    isPrime = false
+                    break
+                }
+                n += 1
+            }
+            if isPrime {
+                if minNum == -1 {
+                    minNum = num
+                }
+                sum += num
+            }
+        }
+        
+        print(minNum == -1 ? -1 : "\(sum)\n\(minNum)")
+    }
 }
