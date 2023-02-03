@@ -29,6 +29,7 @@
 		98358164296796DF0023BD6A /* 2869.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98358163296796DF0023BD6A /* 2869.swift */; };
 		983581662967F17C0023BD6A /* 10250.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983581652967F17C0023BD6A /* 10250.swift */; };
 		983581692968581C0023BD6A /* 25784.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983581682968581C0023BD6A /* 25784.swift */; };
+		9839F36D298ABD6F0058639F /* 11653.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9839F36C298ABD6F0058639F /* 11653.swift */; };
 		9842BB04296C1991003C60A3 /* 2775.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842BB03296C1991003C60A3 /* 2775.swift */; };
 		9842BB0B296DAB71003C60A3 /* 2738.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9842BB0A296DAB71003C60A3 /* 2738.swift */; };
 		985105A32981F3A100B44FB0 /* 2581.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985105A22981F3A100B44FB0 /* 2581.swift */; };
@@ -101,6 +102,7 @@
 		98358163296796DF0023BD6A /* 2869.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2869.swift; sourceTree = "<group>"; };
 		983581652967F17C0023BD6A /* 10250.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10250.swift; sourceTree = "<group>"; };
 		983581682968581C0023BD6A /* 25784.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 25784.swift; sourceTree = "<group>"; };
+		9839F36C298ABD6F0058639F /* 11653.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11653.swift; sourceTree = "<group>"; };
 		9842BB03296C1991003C60A3 /* 2775.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2775.swift; sourceTree = "<group>"; };
 		9842BB0A296DAB71003C60A3 /* 2738.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2738.swift; sourceTree = "<group>"; };
 		985105A22981F3A100B44FB0 /* 2581.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2581.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 			children = (
 				9861E1D6297FB49D009530F6 /* 1978.swift */,
 				985105A22981F3A100B44FB0 /* 2581.swift */,
+				9839F36C298ABD6F0058639F /* 11653.swift */,
 			);
 			name = "기본수학2";
 			path = "기본 수학2";
