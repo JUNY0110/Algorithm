@@ -25,11 +25,11 @@ class BaekJoon19532 {
         let a = nums[0], b = nums[1], c = nums[2], d = nums[3], e = nums[4], f = nums[5]
         let scope = Array<Int>(-999...999)
         
-        for x in scope {
+        OuterLoop: for x in scope {
             for y in scope {
                 if (a * x) + (b * y) == c && (d * x) + (e * y) == f {
                     print(x, y)
-                    break
+                    break OuterLoop
                 }
             }
         }
