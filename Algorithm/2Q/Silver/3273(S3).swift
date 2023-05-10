@@ -60,26 +60,4 @@ class BaekJoon3273 {
         
         print(nums.filter{nums.contains(sum - $0) && sum - $0 > $0}.count)
     }
-    
-    func solution3() {
-        let n = Int(readLine()!)!
-        let nums = readLine()!.split(separator: " ").map { Int(String($0))! }.sorted()
-        let sum = Int(readLine()!)!
-        
-        var p1 = 0, p2 = n-1
-        var result = 0
-        
-        while p1 < p2 {
-            if sum == nums[p1] + nums[p2] {
-                p1 += 1
-                p2 -= 1
-                result += 1
-            } else if sum < nums[p1] + nums[p2] {
-                p2 -= 1
-            } else {
-                p1 += 1
-            }
-        }
-        print(result)
-    }
 }
