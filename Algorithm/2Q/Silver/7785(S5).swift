@@ -12,6 +12,9 @@ class BaekJoon7785 {
         solution()
     }
     
+    /// - NOTE: 문제풀이. 회사에 있는 직원 찾기
+    /// - IMPORTANT: Set을 활용하는 문제.
+    
     func solution() {
         let num = Int(readLine() ?? "1") ?? 1
         var company = Set<String>()
