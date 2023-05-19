@@ -7,7 +7,7 @@
 
 import Foundation
 
-let main = BaekJoon9935()
+let main = BaekJoon10828()
 
 //let startTime = CFAbsoluteTimeGetCurrent()
 //var n = Int(String(readLine()!))!
