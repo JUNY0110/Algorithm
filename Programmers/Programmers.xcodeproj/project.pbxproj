@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98A845FC2A1BB542003D99E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A845FB2A1BB542003D99E0 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		98B8F06F2A0DF81B00FCADED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		98A845FA2A1BB52E003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98A845FB2A1BB542003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
-		98B8F07F2A0DFE3D00FCADED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,10 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		982CCDD62A1BB3CB005B364E /* 같은숫자는싫어(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98A845FB2A1BB542003D99E0 /* main.swift */,
+			);
+			path = "같은숫자는싫어(LV.1)";
+			sourceTree = "<group>";
+		};
+		98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */ = {
+			isa = PBXGroup;
+			children = (
+				98A845FA2A1BB52E003D99E0 /* main.swift */,
+			);
+			path = "최빈값구하기(LV.0)";
+			sourceTree = "<group>";
+		};
 		98B8F0682A0DF81B00FCADED = {
 			isa = PBXGroup;
 			children = (
-				98B8F07E2A0DFE3D00FCADED /* 최빈값구하기(LV.0) */,
+				982CCDD62A1BB3CB005B364E /* 같은숫자는싫어(LV.1) */,
+				98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */,
 				98B8F0722A0DF81B00FCADED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,14 +70,6 @@
 				98B8F0712A0DF81B00FCADED /* Programmers */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		98B8F07E2A0DFE3D00FCADED /* 최빈값구하기(LV.0) */ = {
-			isa = PBXGroup;
-			children = (
-				98B8F07F2A0DFE3D00FCADED /* main.swift */,
-			);
-			path = "최빈값구하기(LV.0)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +104,7 @@
 				TargetAttributes = {
 					98B8F0702A0DF81B00FCADED = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -116,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98A845FC2A1BB542003D99E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,10 +254,12 @@
 		98B8F0792A0DF81B00FCADED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6LML762WM;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -249,6 +267,7 @@
 		98B8F07A2A0DF81B00FCADED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6LML762WM;
 				ENABLE_HARDENED_RUNTIME = YES;
