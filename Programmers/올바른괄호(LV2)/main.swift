@@ -19,6 +19,9 @@ class Main {
         print(solution2(readLine()!))
     }
     
+    /// - NOTE: 문제풀이. 올바른 괄호
+    /// - IMPORTANT: 괄호가 올바르게 열리고 닫히는지 확인.
+    
     func solution1(_ s:String) -> Bool {
         var count = 0
         
@@ -50,5 +53,21 @@ class Main {
             }
         }
         return count == 0 ? true : false
+    }
+    
+    
+    // 오답. 효율성 검사에서 걸림.
+    
+    func solution3(_ s:String) -> Bool {
+        var result = ""
+        
+        for c in s {
+            result += String(c)
+            
+            if result.suffix(2) == "()" {
+                result.removeLast(2)
+            }
+        }
+        return result.isEmpty ? true : false
     }
 }
