@@ -15,11 +15,11 @@ main.run()
 
 class Main {
     func run() {
-        print(solution2(readLine()!.split(separator: " ").map { Int($0)! }, Int(readLine()!)! ))
+        print(solution2(readLine()!.split(separator: " ").compactMap { Int($0) }, Int(readLine()!)! ))
     }
     
-    /// - NOTE: 문제풀이. 올바른 괄호
-    /// - IMPORTANT: 괄호가 올바르게 열리고 닫히는지 확인.
+    /// - NOTE: 문제풀이. 프로세스, 큐.
+    /// - IMPORTANT: 배열 중 가장 큰 값을 기준을 잡고, 그 이후 연산부터는 배열 제거 및 인덱스 확인
     
     func solution1(_ priorities:[Int], _ location:Int) -> Int {
         var p = priorities
