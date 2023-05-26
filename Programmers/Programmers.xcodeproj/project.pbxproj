@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9869FA902A1E657B008D593A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869FA8F2A1E657B008D593A /* main.swift */; };
+		9869FA932A1EF4DB008D593A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869FA922A1EF4DB008D593A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9869FA8C2A1E5CF2008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9869FA8F2A1E657B008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9869FA922A1EF4DB008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		986A535B2A1DBF620043CEEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A845FA2A1BB52E003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A845FB2A1BB542003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -70,6 +71,15 @@
 			path = "모의고사(LV.1)";
 			sourceTree = "<group>";
 		};
+		9869FA912A1EF4D0008D593A /* 소수찾기(LV.2) */ = {
+			isa = PBXGroup;
+			children = (
+				9869FA922A1EF4DB008D593A /* main.swift */,
+			);
+			name = "소수찾기(LV.2)";
+			path = "소수찾기(LV.2)";
+			sourceTree = "<group>";
+		};
 		986A535A2A1DBF530043CEEE /* 프로세스(LV.2) */ = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		98B8F0682A0DF81B00FCADED = {
 			isa = PBXGroup;
 			children = (
+				9869FA912A1EF4D0008D593A /* 소수찾기(LV.2) */,
 				9869FA8E2A1E656C008D593A /* 모의고사(LV.1) */,
 				9869FA8B2A1E5CE7008D593A /* 최소직사각형(LV.1) */,
 				986A535A2A1DBF530043CEEE /* 프로세스(LV.2) */,
@@ -184,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9869FA902A1E657B008D593A /* main.swift in Sources */,
+				9869FA932A1EF4DB008D593A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
