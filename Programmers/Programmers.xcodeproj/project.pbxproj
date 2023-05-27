@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98F222A62A222A570067AE03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F222A52A222A570067AE03 /* main.swift */; };
+		98F222AA2A222B890067AE03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F222A92A222B890067AE03 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F222A22A2229830067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A52A222A570067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98F222A92A222B890067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		98B8F0682A0DF81B00FCADED = {
 			isa = PBXGroup;
 			children = (
+				98F222A82A222B7B0067AE03 /* JadenCase문자열만들기(LV.2) */,
 				98F222A42A222A450067AE03 /* 숫자문자열과영단어(LV.1) */,
 				98F222A12A2229700067AE03 /* 소수만들기(LV.1) */,
 				9869FA912A1EF4D0008D593A /* 소수찾기(LV.2) */,
@@ -156,6 +158,15 @@
 			);
 			name = "숫자문자열과영단어(LV.1)";
 			path = "숫자문자열과영단어(LV1)";
+			sourceTree = "<group>";
+		};
+		98F222A82A222B7B0067AE03 /* JadenCase문자열만들기(LV.2) */ = {
+			isa = PBXGroup;
+			children = (
+				98F222A92A222B890067AE03 /* main.swift */,
+			);
+			name = "JadenCase문자열만들기(LV.2)";
+			path = "JadenCase문자열만들기(LV.2)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F222A62A222A570067AE03 /* main.swift in Sources */,
+				98F222AA2A222B890067AE03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
