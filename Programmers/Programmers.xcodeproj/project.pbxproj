@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9869FA932A1EF4DB008D593A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9869FA922A1EF4DB008D593A /* main.swift */; };
+		98F222A32A2229830067AE03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F222A22A2229830067AE03 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +32,7 @@
 		98A846052A1C7A45003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A846072A1C7A49003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F222A22A2229830067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,7 @@
 		98B8F0682A0DF81B00FCADED = {
 			isa = PBXGroup;
 			children = (
+				98F222A12A2229700067AE03 /* 소수만들기(LV.1) */,
 				9869FA912A1EF4D0008D593A /* 소수찾기(LV.2) */,
 				9869FA8E2A1E656C008D593A /* 모의고사(LV.1) */,
 				9869FA8B2A1E5CE7008D593A /* 최소직사각형(LV.1) */,
@@ -134,6 +136,15 @@
 				98B8F0712A0DF81B00FCADED /* Programmers */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		98F222A12A2229700067AE03 /* 소수만들기(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98F222A22A2229830067AE03 /* main.swift */,
+			);
+			name = "소수만들기(LV.1)";
+			path = "소수만들기(LV.1)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9869FA932A1EF4DB008D593A /* main.swift in Sources */,
+				98F222A32A2229830067AE03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
