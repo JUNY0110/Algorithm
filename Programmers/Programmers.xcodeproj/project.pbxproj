@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98F222B02A24B79C0067AE03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F222AF2A24B79C0067AE03 /* main.swift */; };
+		98F222B32A24B8570067AE03 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F222B22A24B8570067AE03 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +37,7 @@
 		98F222A92A222B890067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222AC2A2371390067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222AF2A24B79C0067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98F222B22A24B8570067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		98B8F0682A0DF81B00FCADED = {
 			isa = PBXGroup;
 			children = (
+				98F222B12A24B84D0067AE03 /* 3진법뒤집기(LV.1) */,
 				98F222AE2A24B78C0067AE03 /* 이진변환반복하기(LV.2) */,
 				98F222AB2A2371290067AE03 /* 최대공약수와최소공배수(LV.1) */,
 				98F222A82A222B7B0067AE03 /* JadenCase문자열만들기(LV.2) */,
@@ -191,6 +193,15 @@
 			path = "이진변환반복하기(LV.2)";
 			sourceTree = "<group>";
 		};
+		98F222B12A24B84D0067AE03 /* 3진법뒤집기(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98F222B22A24B8570067AE03 /* main.swift */,
+			);
+			name = "3진법뒤집기(LV.1)";
+			path = "3진법뒤집기(LV.1)";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F222B02A24B79C0067AE03 /* main.swift in Sources */,
+				98F222B32A24B8570067AE03 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
