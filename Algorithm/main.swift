@@ -7,7 +7,7 @@
 
 import Foundation
 
-let main = BaekJoon11050()
+let main = BoostCampQ1()
 
 //let startTime = CFAbsoluteTimeGetCurrent()
 //var n = Int(String(readLine()!))!
