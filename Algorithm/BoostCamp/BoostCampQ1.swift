@@ -90,25 +90,4 @@ class BoostCampQ1 {
 
         return dict.values.filter{$0 != 1}
     }
-    
-    func solution4(_ arr: [Int]) -> [Int] {
-        var res: [Int] = []
-        var dic: [Int: Int] = [:]
-        for i in arr.sorted() {
-            if let value = dic[i] {
-                dic[i] = value + 1
-            } else {
-                dic[i] = 1
-            }
-        }
-        let sortedDic = dic.sorted { (first, second) in
-            return first < second
-        }
-        for (_, value) in sortedDic {
-            if value > 1 {
-                res.append(value)
-            }
-        }
-        return res.count == 0 ? [-1] : res
-    }
 }
