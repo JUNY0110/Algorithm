@@ -32,6 +32,7 @@ class BoostCampQ1 {
             
             result.append(count)
         }
+        
         // 중복횟수 외에는 1로 초기화
         for j in 1..<result.count {
             if result[j-1] < result[j] {
@@ -48,28 +49,66 @@ class BoostCampQ1 {
     
     // for문을 줄인 코드
     func solution2(_ arr: [Int]) -> [Int] {
-        let arr = arr.sorted()
         var result = [Int]()
-        var count = 1
         
-        for i in 1..<arr.count {
-            if arr[i-1] == arr[i] {
-                count += 1
-                
-                if i == (arr.endIndex-1) {
-                    result.append(count)
+        if arr.count > 1 {
+            let arr = arr.sorted()
+            var count = 1
+            
+            for i in 1..<arr.count {
+                if arr[i-1] == arr[i] {
+                    count += 1
+                    
+                    if i == (arr.index(before: arr.endIndex)) {
+                        result.append(count)
+                    }
+                } else {
+                    if count > 1 {
+                        result.append(count)
+                    }
+                    
+                    count = 1
                 }
+            }
+            
+            result = result.filter { $0 != 1 }
+        }
+        
+        return result.count > 0 ? result : [-1]
+    }
+
+    func solution3(_ arr: [Int]) -> [Int] {
+        var dict = [Int: Int]()
+        
+        for n in arr {
+            if dict[n] != nil {
+                dict[n]! += 1
             } else {
-                if count > 1 {
-                    result.append(count)
-                }
-                
-                count = 1
+                dict[n] = 1
             }
         }
 
-        result = result.filter { $0 != 1 }
-        
-        return result.count > 0 ? result : [-1]
+        return dict.values.filter{$0 != 1}
+    }
+    
+    func solution4(_ arr: [Int]) -> [Int] {
+        var res: [Int] = []
+        var dic: [Int: Int] = [:]
+        for i in arr.sorted() {
+            if let value = dic[i] {
+                dic[i] = value + 1
+            } else {
+                dic[i] = 1
+            }
+        }
+        let sortedDic = dic.sorted { (first, second) in
+            return first < second
+        }
+        for (_, value) in sortedDic {
+            if value > 1 {
+                res.append(value)
+            }
+        }
+        return res.count == 0 ? [-1] : res
     }
 }
