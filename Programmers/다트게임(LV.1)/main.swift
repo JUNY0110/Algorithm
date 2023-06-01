@@ -32,22 +32,23 @@ class Main {
         
         for dart in dartResult {
             let dart = String(dart)
-            stack += dart
-            
+
             if dart == "S" || dart == "D" || dart == "T" {
-                stack.removeLast()
                 scores.append(calculate(&stack, bonus: dart))
+                continue
             }
             
             if dart == "#" {
-                stack.removeLast()
                 scores[scores.endIndex-1] = achaAward(scores)
+                continue
             }
             
             if dart == "*" {
-                stack.removeLast()
                 scores = starAward(&scores)
+                continue
             }
+            
+            stack += dart
         }
         return scores.reduce(0, +)
     }
@@ -56,8 +57,8 @@ class Main {
         guard var score = Int(stack) else { return -1 }
         
         switch bonus {
-        case "D": score = Int(pow(Double(score), Double(2)))
-        case "T": score = Int(pow(Double(score), Double(3)))
+        case "D": score = score * score
+        case "T": score = score * score * score
         default: break
         }
         stack = ""
@@ -79,7 +80,7 @@ class Main {
     }
 
     func achaAward(_ scores: [Int]) -> Int {
-        guard var currentScore = scores.last else { return -1 }
+        guard var currentScore = scores.last else { return 1 }
         currentScore = currentScore * (-1)
         return currentScore
     }
