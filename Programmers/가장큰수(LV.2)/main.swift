@@ -31,10 +31,6 @@ class Main {
             return $0+$1 > $1+$0
         })
         
-        if numbers[0] == "0" {
-            return "0"
-        } else {
-            return numbers.joined()
-        }
+        return numbers[0] == "0" ? "0" : numbers.joined()
     }
 }
