@@ -7,7 +7,6 @@
 
 import Foundation
 
-import Foundation
 let main = Main()
 
 main.run()
