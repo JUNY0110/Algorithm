@@ -142,7 +142,7 @@
 			children = (
 				98BA32222A2DCAD30096EC42 /* LV.2 */,
 				98BA32212A2DCAB30096EC42 /* LV.1 */,
-				98BA32232A2DCAF40096EC42 /* LV.,0 */,
+				98BA32232A2DCAF40096EC42 /* LV.0 */,
 				98B8F0722A0DF81B00FCADED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -193,14 +193,14 @@
 			path = LV.2;
 			sourceTree = "<group>";
 		};
-		98BA32232A2DCAF40096EC42 /* LV.,0 */ = {
+		98BA32232A2DCAF40096EC42 /* LV.0 */ = {
 			isa = PBXGroup;
 			children = (
 				98F222C22A276C6C0067AE03 /* 옹알이(LV.0) */,
 				98F222B42A24B8F80067AE03 /* 두수의합(LV.0) */,
 				98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */,
 			);
-			path = "LV.,0";
+			path = LV.0;
 			sourceTree = "<group>";
 		};
 		98F222A12A2229700067AE03 /* 소수만들기(LV.1) */ = {
