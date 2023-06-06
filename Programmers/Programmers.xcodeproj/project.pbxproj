@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98BA32262A2E16680096EC42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA32252A2E16680096EC42 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		98B8F06F2A0DF81B00FCADED /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -29,6 +33,7 @@
 		98A846052A1C7A45003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A846072A1C7A49003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
+		98BA32252A2E16680096EC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A22A2229830067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A52A222A570067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A92A222B890067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -181,6 +186,7 @@
 		98BA32222A2DCAD30096EC42 /* LV.2 */ = {
 			isa = PBXGroup;
 			children = (
+				98BA32242A2E16580096EC42 /* 캐시찾기(LV.2) */,
 				9869FA912A1EF4D0008D593A /* 소수찾기(LV.2) */,
 				98A846062A1C7A49003D99E0 /* 올바른괄호(LV.2) */,
 				98F222AE2A24B78C0067AE03 /* 이진변환반복하기(LV.2) */,
@@ -201,6 +207,15 @@
 				98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */,
 			);
 			path = LV.0;
+			sourceTree = "<group>";
+		};
+		98BA32242A2E16580096EC42 /* 캐시찾기(LV.2) */ = {
+			isa = PBXGroup;
+			children = (
+				98BA32252A2E16680096EC42 /* main.swift */,
+			);
+			name = "캐시찾기(LV.2)";
+			path = "캐시찾기(LV.2)";
 			sourceTree = "<group>";
 		};
 		98F222A12A2229700067AE03 /* 소수만들기(LV.1) */ = {
@@ -422,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98BA32262A2E16680096EC42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
