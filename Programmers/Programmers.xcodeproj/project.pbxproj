@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98BA32262A2E16680096EC42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA32252A2E16680096EC42 /* main.swift */; };
+		98BA32292A2EEE760096EC42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA32282A2EEE760096EC42 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		98A846072A1C7A49003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BA32252A2E16680096EC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98BA32282A2EEE760096EC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A22A2229830067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A52A222A570067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A92A222B890067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -163,6 +164,7 @@
 		98BA32212A2DCAB30096EC42 /* LV.1 */ = {
 			isa = PBXGroup;
 			children = (
+				98BA32272A2EEE6B0096EC42 /* 성격유형검사하기(LV.1) */,
 				98F66AD42A2DCA5700DA27C1 /* 신고결과받기(LV.1) */,
 				98F66ACE2A2D73AE00DA27C1 /* N개의최소공배수(LV.1) */,
 				98F66ACB2A2C7D1800DA27C1 /* 비밀지도(LV.1) */,
@@ -216,6 +218,15 @@
 			);
 			name = "캐시찾기(LV.2)";
 			path = "캐시찾기(LV.2)";
+			sourceTree = "<group>";
+		};
+		98BA32272A2EEE6B0096EC42 /* 성격유형검사하기(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98BA32282A2EEE760096EC42 /* main.swift */,
+			);
+			name = "성격유형검사하기(LV.1)";
+			path = "성격유형검사하기(LV.1)";
 			sourceTree = "<group>";
 		};
 		98F222A12A2229700067AE03 /* 소수만들기(LV.1) */ = {
@@ -437,7 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BA32262A2E16680096EC42 /* main.swift in Sources */,
+				98BA32292A2EEE760096EC42 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
