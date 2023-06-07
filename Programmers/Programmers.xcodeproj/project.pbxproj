@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98BA32292A2EEE760096EC42 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BA32282A2EEE760096EC42 /* main.swift */; };
+		9868E20F2A306C4500CC2299 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9868E20E2A306C4500CC2299 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9868E20E2A306C4500CC2299 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9869FA8C2A1E5CF2008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9869FA8F2A1E657B008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9869FA922A1EF4DB008D593A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -72,6 +73,15 @@
 				98A845FB2A1BB542003D99E0 /* main.swift */,
 			);
 			path = "같은숫자는싫어(LV.1)";
+			sourceTree = "<group>";
+		};
+		9868E20D2A306C3500CC2299 /* 정수를나선형으로배치하기(LV.0) */ = {
+			isa = PBXGroup;
+			children = (
+				9868E20E2A306C4500CC2299 /* main.swift */,
+			);
+			name = "정수를나선형으로배치하기(LV.0)";
+			path = "정수를나선형으로배치하기(LV.0)";
 			sourceTree = "<group>";
 		};
 		9869FA8B2A1E5CE7008D593A /* 최소직사각형(LV.1) */ = {
@@ -204,6 +214,7 @@
 		98BA32232A2DCAF40096EC42 /* LV.0 */ = {
 			isa = PBXGroup;
 			children = (
+				9868E20D2A306C3500CC2299 /* 정수를나선형으로배치하기(LV.0) */,
 				98F222C22A276C6C0067AE03 /* 옹알이(LV.0) */,
 				98F222B42A24B8F80067AE03 /* 두수의합(LV.0) */,
 				98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */,
@@ -448,7 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BA32292A2EEE760096EC42 /* main.swift in Sources */,
+				9868E20F2A306C4500CC2299 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
