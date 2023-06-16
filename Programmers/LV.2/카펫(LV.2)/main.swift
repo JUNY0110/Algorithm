@@ -17,17 +17,18 @@ class Main {
         let brown = Int(readLine()!)!
         let yellow = Int(readLine()!)!
         print(solution1(brown, yellow))
+        
     }
-    
+
     func solution1(_ brown:Int, _ yellow:Int) -> [Int] {
-        let colorCount = brown + yellow
+        let gridCount = brown + yellow
         var result = [Int]()
         
-        for n in 1...Int(sqrt(Double(colorCount))) {
+        for n in 1...Int(sqrt(Double(gridCount))) {
             // 전체 카펫 격자수의 약수 찾기
-            if colorCount % n == 0 {
+            if gridCount % n == 0 {
                 // 가로 격자수 >= 세로 격자수
-                let width = colorCount/n
+                let width = gridCount/n
                 let height = n
                 
                 // 테두리만 갈색이므로, 가로 끝 2칸, 세로 끝 2칸을 제외한 범위를 찾아야 함.
