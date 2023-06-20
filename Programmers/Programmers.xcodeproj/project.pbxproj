@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		986EA0062A3DDB53008A0158 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986EA0052A3DDB53008A0158 /* main.swift */; };
+		98DFB97B2A41D445009A4BA3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DFB97A2A41D445009A4BA3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -51,6 +51,9 @@
 		98B8F0712A0DF81B00FCADED /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BA32252A2E16680096EC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98BA32282A2EEE760096EC42 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98DFB9742A41886A009A4BA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98DFB9772A419427009A4BA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98DFB97A2A41D445009A4BA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A22A2229830067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A52A222A570067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98F222A92A222B890067AE03 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -309,6 +312,7 @@
 				98BA32232A2DCAF40096EC42 /* LV.0 */,
 				98BA32212A2DCAB30096EC42 /* LV.1 */,
 				98BA32222A2DCAD30096EC42 /* LV.2 */,
+				98DFB9722A418829009A4BA3 /* LV.3 */,
 				98B8F0722A0DF81B00FCADED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -324,6 +328,7 @@
 		98BA32212A2DCAB30096EC42 /* LV.1 */ = {
 			isa = PBXGroup;
 			children = (
+				98DFB9792A41D438009A4BA3 /* 기사단원의무기(LV.1) */,
 				9875AD922A3CB00200FC8877 /* 신규아이디추천(LV.1) */,
 				9875AD8F2A3C8CCB00FC8877 /* 문자열나누기(LV.1) */,
 				9875AD732A397C3600FC8877 /* 컨트롤제트(LV.1) */,
@@ -357,6 +362,7 @@
 		98BA32222A2DCAD30096EC42 /* LV.2 */ = {
 			isa = PBXGroup;
 			children = (
+				98DFB9762A41941F009A4BA3 /* 의상(LV.2) */,
 				986EA0042A3DDB49008A0158 /* 튜플(LV.2) */,
 				986EA0012A3DDAB3008A0158 /* 오픈채팅방(LV.2) */,
 				9875AD792A3B5F0C00FC8877 /* 카펫(LV.2) */,
@@ -403,6 +409,41 @@
 			);
 			name = "성격유형검사하기(LV.1)";
 			path = "성격유형검사하기(LV.1)";
+			sourceTree = "<group>";
+		};
+		98DFB9722A418829009A4BA3 /* LV.3 */ = {
+			isa = PBXGroup;
+			children = (
+				98DFB9732A41885B009A4BA3 /* 베스트앨범(LV.3) */,
+			);
+			path = LV.3;
+			sourceTree = "<group>";
+		};
+		98DFB9732A41885B009A4BA3 /* 베스트앨범(LV.3) */ = {
+			isa = PBXGroup;
+			children = (
+				98DFB9742A41886A009A4BA3 /* main.swift */,
+			);
+			name = "베스트앨범(LV.3)";
+			path = "베스트앨범(LV.3)";
+			sourceTree = "<group>";
+		};
+		98DFB9762A41941F009A4BA3 /* 의상(LV.2) */ = {
+			isa = PBXGroup;
+			children = (
+				98DFB9772A419427009A4BA3 /* main.swift */,
+			);
+			name = "의상(LV.2)";
+			path = "의상(LV.2)";
+			sourceTree = "<group>";
+		};
+		98DFB9792A41D438009A4BA3 /* 기사단원의무기(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98DFB97A2A41D445009A4BA3 /* main.swift */,
+			);
+			name = "기사단원의무기(LV.1)";
+			path = "기사단원의무기(LV.1)";
 			sourceTree = "<group>";
 		};
 		98F222A12A2229700067AE03 /* 소수만들기(LV.1) */ = {
@@ -624,7 +665,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				986EA0062A3DDB53008A0158 /* main.swift in Sources */,
+				98DFB97B2A41D445009A4BA3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
