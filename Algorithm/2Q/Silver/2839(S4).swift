@@ -9,7 +9,7 @@ import Foundation
 
 class BaekJoon2839 {
     func run() {
-        solution()
+        solution3()
     }
 
     // 설탕을 최대한 적은 봉지에 담아 가져가기
@@ -36,5 +36,39 @@ class BaekJoon2839 {
             }
             smallBagAmount += 1
         }
+    }
+    
+    func solution2() {
+        var sugarWeight = Int(readLine()!)!
+        var bag = 0
+        
+        if sugarWeight % 5 == 0 {
+            bag = sugarWeight / 5
+            sugarWeight = 0
+        }
+        
+        while sugarWeight > 0 {
+            sugarWeight -= 3
+            bag += 1
+            
+            if sugarWeight % 5 == 0 {
+                bag += sugarWeight / 5
+                sugarWeight = 0
+            }
+        }
+        print(sugarWeight < 0 ? -1 : bag)
+    }
+    
+    func solution3() {
+        let sugarWeight = Int(readLine()!)!
+        var dp = Array(repeating: 5001, count: 5001)
+        dp[3] = 1
+        dp[5] = 1
+
+        for i in 6...5000 {
+            dp[i] = min(dp[i-3], dp[i-5]) + 1
+        }
+        
+        print(dp[sugarWeight] > 5000 ? -1 : dp[sugarWeight])
     }
 }
