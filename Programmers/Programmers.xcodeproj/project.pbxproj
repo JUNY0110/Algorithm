@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98A2E11C2A49B0BD0026D6A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2E11B2A49B0BD0026D6A0 /* main.swift */; };
+		98A2E1222A4B182B0026D6A0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A2E1212A4B182B0026D6A0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +55,8 @@
 		989190162A2C2ED400036CF5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A2E1182A497BE40026D6A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A2E11B2A49B0BD0026D6A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98A2E11E2A4AC8210026D6A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		98A2E1212A4B182B0026D6A0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A845FA2A1BB52E003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A845FB2A1BB542003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		98A846052A1C7A45003D99E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -392,6 +394,24 @@
 			path = "대충만든자판(LV.1)";
 			sourceTree = "<group>";
 		};
+		98A2E11D2A4AC8140026D6A0 /* 크레인인형뽑기게임(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98A2E11E2A4AC8210026D6A0 /* main.swift */,
+			);
+			name = "크레인인형뽑기게임(LV.1)";
+			path = "크레인인형뽑기게임(LV.1)";
+			sourceTree = "<group>";
+		};
+		98A2E1202A4B18210026D6A0 /* 키패드누르기(LV.1) */ = {
+			isa = PBXGroup;
+			children = (
+				98A2E1212A4B182B0026D6A0 /* main.swift */,
+			);
+			name = "키패드누르기(LV.1)";
+			path = "키패드누르기(LV.1)";
+			sourceTree = "<group>";
+		};
 		98A845F92A1BB52E003D99E0 /* 최빈값구하기(LV.0) */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +458,8 @@
 		98BA32212A2DCAB30096EC42 /* LV.1 */ = {
 			isa = PBXGroup;
 			children = (
+				98A2E1202A4B18210026D6A0 /* 키패드누르기(LV.1) */,
+				98A2E11D2A4AC8140026D6A0 /* 크레인인형뽑기게임(LV.1) */,
 				98A2E11A2A49B0B30026D6A0 /* 대충만든자판(LV.1) */,
 				98A2E1172A497BDA0026D6A0 /* 옹알이(LV.1) */,
 				980587FA2A48846D00B21CF5 /* 체육복(LV.1) */,
@@ -786,7 +808,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98A2E11C2A49B0BD0026D6A0 /* main.swift in Sources */,
+				98A2E1222A4B182B0026D6A0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
