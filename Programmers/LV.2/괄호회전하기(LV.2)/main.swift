@@ -28,9 +28,9 @@ class Main {
             
             for char in s {
                 if let last = stack.last {
-                    if last == "[" && char == "]" ||
-                    last == "(" && char == ")" ||
-                    last == "{" && char == "}" {
+                    if (last == "[" && char == "]") ||
+                       (last == "(" && char == ")") ||
+                       (last == "{" && char == "}") {
                         stack.removeLast()
                         continue
                     }
@@ -80,6 +80,29 @@ class Main {
 
             let cycle = s.removeFirst()
             s.append(cycle)
+        }
+        return result
+    }
+    
+    func solution3(_ s:String) -> Int {
+        var brackets = s
+        var temp = s
+        var result = 0
+        
+        for _ in s {
+            while brackets.contains("[]") || brackets.contains("{}") || brackets.contains("()") {
+                brackets = brackets.replacingOccurrences(of: "[]", with: "")
+                brackets = brackets.replacingOccurrences(of: "{}", with: "")
+                brackets = brackets.replacingOccurrences(of: "()", with: "")
+            }
+            
+            if brackets.isEmpty {
+                result += 1
+            }
+            
+            let cycle = temp.removeFirst()
+            temp.append(cycle)
+            brackets = temp
         }
         return result
     }
