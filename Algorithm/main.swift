@@ -7,18 +7,18 @@
 
 import Foundation
 
-let main = BaekJoon14501()
-
-var n = Int(String(readLine()!))!
-
-func recursive(_ n: Int) -> Int {
-    if n == 174300 {
-        return n
-    }
-    return recursive(n+1)
-}
-
-let startTime = CFAbsoluteTimeGetCurrent()
-//print(solution(n))
-print(recursive(n))
-print(CFAbsoluteTimeGetCurrent() - startTime)
+let main = BaekJoon2455()
+main.run()
+//var n = Int(String(readLine()!))!
+//
+//func recursive(_ n: Int) -> Int {
+//    if n == 174300 {
+//        return n
+//    }
+//    return recursive(n+1)
+//}
+//
+//let startTime = CFAbsoluteTimeGetCurrent()
+////print(solution(n))
+//print(recursive(n))
+//print(CFAbsoluteTimeGetCurrent() - startTime)
