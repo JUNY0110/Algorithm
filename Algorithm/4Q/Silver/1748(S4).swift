@@ -9,7 +9,7 @@ import Foundation
 
 class BaekJoon1748 {
     func run() {
-        solution()
+        solution2()
     }
     
     private func solution() {
@@ -29,11 +29,6 @@ class BaekJoon1748 {
         }
         
         print(result)
-        
-        
-        while true {
-            
-        }
         /*
          1 ~ 9 = 1 * 9
          10 ~ 99 = 2 * 90
@@ -44,5 +39,20 @@ class BaekJoon1748 {
          10000000 ~ 99999999 = 8 * 90000000
          100000000 = 9 * 1
          */
+    }
+    
+    private func solution2() {
+        let number = Int(readLine()!)!
+
+        var index = 1
+        var result = 0
+
+        while index <= number {
+            result += (number-index) + 1
+            index *= 10
+            print(result)
+        }
+
+        print(result)
     }
 }
