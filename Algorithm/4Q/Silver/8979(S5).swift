@@ -13,7 +13,7 @@ final class BaekJoon8979 {
         solution()
     }
     
-    struct Olympics: Equatable {
+    private struct Olympics: Equatable {
         let countryNumber: Int
         let medals: Medal
         var rank: Int
@@ -23,7 +23,7 @@ final class BaekJoon8979 {
         }
     }
     
-    struct Medal: Equatable {
+    private struct Medal: Equatable {
         let gold: Int
         let silver: Int
         let bronze: Int
@@ -52,7 +52,7 @@ final class BaekJoon8979 {
         }
     }
     
-    func determineRanking(_ scores: [Olympics]) -> [Olympics] {
+    private func determineRanking(_ scores: [Olympics]) -> [Olympics] {
         var scores = sortedScores(scores)
         scores[0].rank = 1
         
@@ -68,7 +68,7 @@ final class BaekJoon8979 {
         return scores
     }
     
-    func sortedScores(_ scores: [Olympics]) -> [Olympics] {
+    private func sortedScores(_ scores: [Olympics]) -> [Olympics] {
         return scores.sorted {
             if $0.medals.gold != $1.medals.gold {
                 return $0.medals.gold > $1.medals.gold
