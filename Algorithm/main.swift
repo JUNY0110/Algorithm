@@ -7,7 +7,7 @@
 
 import Foundation
 
-let main = BaekJoon2740()
+let main = BaekJoon15312()
 main.run()
 //var n = Int(String(readLine()!))!
 //
