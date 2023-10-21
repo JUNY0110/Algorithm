@@ -63,13 +63,13 @@ final class BaekJoon1966 {
                 
                 if queue.contains(where: { $0.element > dequeue.element }) {
                     queue.append(dequeue)
-                } else {
-                    result += 1
-                    
-                    if dequeue.index == nm[1] {
-                        print(result)
-                        break
-                    }
+                    continue
+                }
+                result += 1
+                
+                if dequeue.index == nm[1] {
+                    print(result)
+                    break
                 }
             }
         }
