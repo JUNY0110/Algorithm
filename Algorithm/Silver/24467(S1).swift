@@ -59,15 +59,11 @@ final class BaekJoon24467 {
             
             move += jump
             
-            if move > 20 {
-                result = "WIN"
-            }
-            
             if visitedPoint == 0 && move % 5 == 0 && move < 15 { // 꼭지점에 처음 도착하면
                 visitedPoint = move                              // 방문 위치 저장
             }
             
-            if visitedPoint == 5 {
+            if visitedPoint == 5 {  // 첫번째 꼭지점에 방문했었으면
                 if visitedCenter {  // 중앙 방문했으면
                     if move >= 12 { // 12이상이면 승리
                         result = "WIN"
@@ -84,12 +80,14 @@ final class BaekJoon24467 {
                 }
             }
             
-            if visitedPoint == 10 { // 10번째칸에 방문했었으면
+            if visitedPoint == 10 { // 2번째 꼭지점에 방문했었으면
                 if move >= 17 {     // 17이상이면 승리
                     result = "WIN"
                 }
             }
         }
+        
+        if move > 20 { result = "WIN" } // 20칸 넘게 이동했으면 승리
         
         return result
     }
