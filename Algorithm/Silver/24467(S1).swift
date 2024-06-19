@@ -78,6 +78,7 @@ final class BaekJoon24467 {
                         result = "WIN"
                     }
                 }
+                continue
             }
             
             if visitedPoint == 10 { // 2번째 꼭지점에 방문했었으면
